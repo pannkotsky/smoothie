@@ -1,0 +1,87 @@
+Create user with set of default items
+	OK Balance
+	OK Income loss
+
+OK Display user's state
+
+OK Allow user to change his state through transactions
+
+Allow user to change set of items
+
+
+
+Add bottom lines
+
+
+DONE Redo sample chart to display all balance items
+Add chart to display expences and income
+
+
+
+
+
+
+
+
+OK email notifications
+email confirm registration
+
+js checks
+	OK disable buttons when some field is empty
+	OK password dont match
+
+
+OK html5 tags
+OK forms better-looking
+OK profile information above
+
+construct database
+
+OK unique username
+OK change active tabs in navbar
+OK add credits: Jaclyne Ooi from the Noun Project, Bootstrap, Glyphicon, Chart
+
+OK make chart with data from database
+
+OK create structure for home page: transactions; profit&losses; cashflow; balance; charts
+
+OK add comments to scripts.js
+
+OK add to users: residency, national id, default currency
+add above to registration
+check all non-empty fields in one procedure (make it as separate function)
+check passwords in one procedure
+add choice of residency
+add choice of default currency
+
+
+
+use 'smoother' instead of 'user'
+possibly use modal windows to login and register
+
+add contact me section
+my blog
+editor's blog
+something with map
+
+register social media accounts for announcements (Facebook, Twitter, Youtube)
+locate country of the user
+
+
+
+
+add transactions
+add/delete accounts
+add/delete balance items
+add/delete income
+show balance totals
+show balance charts
+
+
+UPLOAD:
+
+FILES
+register.php
+
+DATABASE STRUCTURE
+counterparties

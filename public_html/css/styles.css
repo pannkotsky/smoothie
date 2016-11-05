@@ -1,0 +1,74 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 50px;
+}
+
+td
+{
+    text-align: left;
+}
+
+.nav
+{
+    display: inline-block;
+}
+
+.nav.nav-stacked
+{
+	text-align: left;
+	width: 100%;
+}
+
+tfoot
+{
+    color: blue;
+    font-weight: bold;
+}
+
+form
+{
+	margin-top: 50px;
+}
+
+form #buttons
+{
+	margin-top: 50px;
+}
+
+#dontmatch, #notvalid
+{
+	font-size: smaller;
+	color: red;
+}
+
+.nav.profile
+{
+	font-size: 82%;
+}

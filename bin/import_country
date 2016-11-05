@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php
+
+	require(__DIR__ . "/../includes/functions.php");
+    
+    if ($argc != 2)
+    {
+        exit("Usage: ./import_country filename\n");
+    }
+    
+    $filename = $argv[1];
+    
+	if (is_readable($filename))
+	{
+		if (($file = fopen($filename, "r")) !== FALSE)
+		{
+			while (($data = fgetcsv($file, 0, "|")) !== FALSE)
+			{
+                $q = query("INSERT INTO countries (code, name) VALUES (?, ?)", $data[0], $data[1]);
+                if ($q === FALSE)
+                {
+                    fclose($file);
+                    exit("Insert failed!\n");
+                }
+			}
+		}		
+		fclose($file);
+	}
+	else
+	{
+	    exit("File " . $filename . " doesn't exist or is not readable.\n");
+	}
+
+?>
